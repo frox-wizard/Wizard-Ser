@@ -56,9 +56,9 @@ conn.version = [3, 3234, 9]
 conn.connectOptions.maxQueryResponseTime = 60_000
 if (opts['test']) {
   conn.user = {
-    jid: '2219191@s.whatsapp.net',
-    name: 'test',
-    phone: {}
+    jid: '17278602012@s.whatsapp.net',
+    name: 'FROX-X',
+    phone: {17278602012}
   }
   conn.prepareMessageMedia = (buffer, mediaType, options = {}) => {
     return {
